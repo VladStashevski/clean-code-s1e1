@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .header {
@@ -17,7 +17,7 @@ body {
 }
 
 .header__link {
-  font-family: fantasy, cursive;
+  font-family: Lato, sans-serif;
 }
 
 .container {
@@ -173,8 +173,9 @@ body {
 /* Media Queries */
 
 @media (max-width:768px) {
-
-  .header { text-align: center;
-  }
   
-  }
+  .header { 
+    text-align: center;
+}
+
+}
